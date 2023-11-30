@@ -2,6 +2,7 @@ const addtodo = document.querySelector(".addTodo");
 const button = document.querySelector(".addButton");
 const todobox = document.querySelector(".todoBox");
 button.onclick = addTodos;
+let count = 1;
 
 function addTodos(evt) {
     let data = addtodo.value;
