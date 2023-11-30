@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="/style.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,19 +7,19 @@
     <title>Todo App</title>
 </head>
 <body>
-    <div>
-        <input  type="text" class="addTodo" placeholder="Title...">
+    <div class = "addTodos">
+        <input type="text" class="addTodo" placeholder="Title...">
         <button class="addButton">Додати</button>
     </div>
 
-    <div style="display: flex; flex-direction: column;" class="todoBox">   
-        <input type="checkbox" id="death" name="death">
+    <div class="todoBox">
+        <input type="checkbox" id="death">
         <label for="death">Try to die</label>
-        <input type="checkbox" id="notdeath" name="notdeath">
+        <input type="checkbox" id="notdeath">
         <label for="notdeath">Try not to die</label>
-        <input type="checkbox" id="mmr" name="mmr">
+        <input type="checkbox" id="mmr">
         <label for="mmr">6000 mmr</label>
-        <input type="checkbox" id="js" name="js">
+        <input type="checkbox" id="js">
         <label for="js">Js за 3 дня</label>
     </div>
     <script src="script.js"></script>
