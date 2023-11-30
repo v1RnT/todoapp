@@ -1,0 +1,22 @@
+.addTodos{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.addTodo{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 10px;   
+}
+
+.todoBox{
+    
+    width: 35%;
+    padding: 10px;
+    margin: auto;
+    color: whitesmoke;
+    background-color: darkgray;
+    display: flex; 
+    flex-direction: column;
+}
